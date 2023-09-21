@@ -1,0 +1,55 @@
+.datepicker-calendar {
+    font-family: Arial, sans-serif;
+    width: 220px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.datepicker-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.datepicker-header span {
+    cursor: pointer;
+}
+
+.datepicker-day-labels {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 5px;
+}
+
+.datepicker-day-labels span {
+    font-weight: bold;
+}
+
+.datepicker-days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 5px;
+}
+
+.datepicker-day {
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.prev-month-day,
+.next-month-day {
+    color: #aaa;
+}
+/* ... (your existing CSS rules) */
+
+.datepicker-day:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
